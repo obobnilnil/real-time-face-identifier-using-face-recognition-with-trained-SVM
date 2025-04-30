@@ -1,0 +1,1 @@
+print("ScriptApi module initialized")

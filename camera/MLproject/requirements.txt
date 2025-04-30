@@ -1,0 +1,7 @@
+opencv-python
+face_recognition
+# dlib==19.22.1 we fixed by install directly with .whl file
+# cmake
+joblib
+scikit-learn
+## numpy

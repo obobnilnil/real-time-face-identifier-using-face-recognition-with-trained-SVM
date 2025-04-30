@@ -1,0 +1,22 @@
+# Ignore Python venv
+venv/
+*/venv/
+**/venv/
+
+# Ignore compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model & data artifacts
+*.joblib
+*.pkl
+*.h5
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
