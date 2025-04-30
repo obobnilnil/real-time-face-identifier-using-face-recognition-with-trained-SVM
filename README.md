@@ -100,17 +100,17 @@ source venv/bin/activate
 3. **Install dependencies for both modules**
 
 ```bash
-cd camera\MLproject
+cd camera/MLproject
 pip install -r requirements.txt
 
-cd ../../trainer\embeddingClassifier
+cd ../../trainer/embeddingClassifier
 pip install -r requirements.txt
 ```
 
 4. **Start the backend service**
 
 ```bash
-cd ../../backend\ml_database
+cd ../../backend/ml_database
 go run main.go
 ```
 After running this command, the MongoDB database will be initialized and ready to store embedding data.
@@ -140,7 +140,7 @@ Replace `"your_name"` with something like `"worapon"` or `"suvanee"` depending o
 **Step 5.3**: Run the camera module
 
 ```bash
-cd ../../camera\MLproject
+cd ../../camera/MLproject
 python ml_project.py
 ```
 This will activate your webcam and start collecting facial data under the given name. Pictures are taken every 2 seconds.
@@ -153,7 +153,7 @@ After you have completed collecting face data using the camera module, you can t
 Run the training script
 
 ```bash
-cd ../../trainer\embeddingClassifier
+cd ../../trainer/embeddingClassifier
 python embeddingClassifier.py
 ```
 
@@ -176,7 +176,7 @@ This tells the system to use the trained model (`face_recognition_model.joblib`)
 **Step 7.2**: Run the recognition script
 
 ```bash
-cd ../../camera\MLproject
+cd ../../camera/MLproject
 python ml_project.py
 ```
 When a face is detected, the system will display the predicted name and confidence score on the screen. Faces that do not match any trained identity above the confidence threshold will be labeled as `unknown`.
