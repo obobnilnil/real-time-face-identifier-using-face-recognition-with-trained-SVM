@@ -5,7 +5,7 @@
 </p>
 <H1>🔍Introduction</H1>
 <p>
-This project is a **real-time person identification system** that uses the **face_recognition** library for facial embedding extraction and a custom-trained classifier based on the **SVM algorithm** for identity prediction. It is designed as a **microservice architecture** comprising four main components:
+This project is a <strong>real-time person identification system</strong> that uses the <strong>face_recognition</strong> library for facial embedding extraction and a custom-trained classifier based on the <strong>SVM algorithm</strong> for identity prediction. It is designed as a <strong>microservice architecture</strong> comprising four main components:
 
 - a **Python-based camera module** for face detection  
 - a **Go backend service** for handling API and database operations  
