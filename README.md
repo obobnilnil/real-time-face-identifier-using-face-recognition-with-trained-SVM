@@ -1,10 +1,10 @@
 <p align="center">
   <img src="assets/crop4.gif" width="48%" style="margin-right:1%">
-  <img src="assets/crop5.gif" width="48%">
+  <img src="assets/pi5.gif" width="50%">
+**Note** The left GIF was recorded on a laptop at 20 FPS, while the right GIF was recorded on a Raspberry Pi averaging 15 FPS. 
 </p>
 <H1>🔍Introduction</H1>
 <p>
-  
 This project is a **real-time person identification system** that uses the **face_recognition** library for facial embedding extraction and a custom-trained classifier based on the **SVM algorithm** for identity prediction. It is designed as a **microservice architecture** comprising four main components:
 
 - a **Python-based camera module** for face detection  
