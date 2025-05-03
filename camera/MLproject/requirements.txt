@@ -5,3 +5,4 @@ cmake
 joblib
 scikit-learn
 numpy==1.23.5
+requests
