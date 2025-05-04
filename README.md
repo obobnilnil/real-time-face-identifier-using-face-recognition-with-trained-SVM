@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/crop4.gif" width="48%" style="margin-right:1%">
+  <img src="assets/crop5.gif" width="48%" style="margin-right:1%">
   <img src="assets/pi5.gif" width="50%">
 **Note** The left GIF was recorded on a laptop at 20 FPS, while the right GIF was recorded on a Raspberry Pi averaging 15 FPS. 
 </p>
@@ -271,6 +271,24 @@ Query Parameters:
 name=your_name
 http://localhost:8889/api/FetchEmbeddingDetailsForModelTrainer?name=your_name
 ```
+
+## Dependencies
+cmake
+
+dlib==19.22.1
+
+face_recognition
+
+opencv-python
+
+scikit-learn
+
+joblib
+
+numpy==1.23.5
+
+requests
+
 ---
 Thank you for your interest in this repository.  
 If you find this project helpful, feel free to star ⭐ or contribute!
