@@ -67,6 +67,10 @@ The current model was trained using:
 If you require a higher **prediction confidence** (e.g., `probability > 0.7–0.8`), it is **strongly recommended** to collect more training samples per identity.  
 This will improve model accuracy and reduce the chance of misclassification, especially when working with similar-looking faces or under low-light conditions.
 
+**⚠️ Important:**  
+**In practice, the most critical parameters for effective face recognition are _camera angle diversity_ and _lighting conditions_.**  
+**When these factors are well-controlled, it is possible to achieve a confidence score of around 0.7 with as few as 5–10 high-quality images.**
+
 
 ## 🔧 Prerequisites
 - Only one MongoDB database is required
